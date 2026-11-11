@@ -1,0 +1,292 @@
+{
+  "info": {
+    "name": "UTS Web Service mobile2410020167",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://mobile2410020167.test/api"
+    }
+  ],
+  "item": [
+    {
+      "name": "Kriteria",
+      "item": [
+        {
+          "name": "GET semua kriteria",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/kriteria",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "kriteria"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST kriteria",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/kriteria",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "kriteria"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"nama_kriteria\": \"Disiplin\", \"prioritas\": 7}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "GET kriteria by id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/kriteria/7",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "kriteria",
+                "7"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT kriteria",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/kriteria/7",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "kriteria",
+                "7"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"nama_kriteria\": \"Disiplin Kerja\", \"prioritas\": 7}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "DELETE kriteria",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/kriteria/7",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "kriteria",
+                "7"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sub Kriteria",
+      "item": [
+        {
+          "name": "GET semua sub kriteria",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/sub-kriteria",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "sub-kriteria"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST sub kriteria",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/sub-kriteria",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "sub-kriteria"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"kriteria_id\": 2, \"nama_sub_kriteria\": \"S3 Luar Negeri\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "GET sub kriteria by id",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/sub-kriteria/23",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "sub-kriteria",
+                "23"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT sub kriteria",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/sub-kriteria/23",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "sub-kriteria",
+                "23"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"nama_sub_kriteria\": \"S3 Dalam Negeri\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "DELETE sub kriteria",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/sub-kriteria/23",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "sub-kriteria",
+                "23"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

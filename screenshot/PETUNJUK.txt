@@ -1,7 +1,0 @@
-Letakkan screenshot BARU di folder ini (screenshot lama tidak cocok lagi karena format respons API berubah):
-01_route_list.png
-02_kriteria_GET_200.png            03_kriteria_POST_201.png        04_kriteria_GET_id_200.png
-05_kriteria_PUT_200.png            06_kriteria_DELETE_204.png      07_db_kriterias.png (setelah POST/PUT/DELETE)
-08_subkriteria_GET_200.png         09_subkriteria_POST_201.png     10_subkriteria_GET_id_200.png
-11_subkriteria_PUT_200.png         12_subkriteria_DELETE_204.png   13_db_sub_kriterias.png
-14_emulator_data_kriteria.png      (layar aplikasi Flutter di emulator Android Studio)

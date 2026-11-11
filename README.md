@@ -52,6 +52,3 @@ Data tidak valid dibalas **422** (mis. `kriteria_id` yang tidak ada); data yang 
 ## Aplikasi Flutter (`appkriteria`)
 Emulator Android Studio memakai alamat `http://10.0.2.2:8000/api/kriteria` (jalankan `php artisan serve` dulu).
 Langkah lengkap ada di `PANDUAN.md`.
-
-## Bukti pengujian
-Lihat folder `screenshot/` (Postman, HeidiSQL, dan emulator Android Studio).
